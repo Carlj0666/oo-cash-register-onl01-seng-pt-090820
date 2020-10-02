@@ -26,11 +26,11 @@ class CashRegister
   end
   
   
-  def items
-    self.add_item.title
-    binding.pry
+  # def items
+  #   self.add_item.title
+  #   binding.pry
     
-  end
+  # end
   
   
 end
