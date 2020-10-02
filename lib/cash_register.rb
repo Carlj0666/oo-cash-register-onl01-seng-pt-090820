@@ -19,9 +19,10 @@ class CashRegister
     #binding.pry
     if self.discount == 10
       return "There is no discount to apply."
-    else
+    elsif 
     self.total -= self.discount * 10
     return "After the discount, the total comes to $#{self.total}."
+  end
   end
   
 
