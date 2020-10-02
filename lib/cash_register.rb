@@ -34,7 +34,7 @@ class CashRegister
   end
   
   def void_last_transaction
-    delete @price_list.title[name]
+    delete @price_list[title]
   end
   
 end
