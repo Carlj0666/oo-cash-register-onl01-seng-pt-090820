@@ -14,7 +14,7 @@ class CashRegister
   def add_item(title, price, quantity = 1)
   #    last_transaction
   #binding.pry
-    price_list = { title => price }
+    @price_list = { title => price }
     quantity.times do
     items << title
     end
