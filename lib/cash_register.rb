@@ -11,12 +11,9 @@ class CashRegister
   
   
   def add_item(title, price, quantity = 1)
-    
     self.total += price * quantity
-          #binding.pry
-          #figure out how to access the cash register's instance total with what we have
-
   end
+  
   
   
 end
