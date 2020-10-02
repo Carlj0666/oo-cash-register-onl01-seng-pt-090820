@@ -12,6 +12,7 @@ class CashRegister
   
   
   def add_item(title, price, quantity = 1)
+    binding.pry
     items_list << title * quantity
     self.total += price * quantity
     
