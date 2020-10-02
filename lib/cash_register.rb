@@ -36,7 +36,8 @@ class CashRegister
   
   def void_last_transaction
     #binding.pry
-    @price_list.clear
+    #@price_list.clear
+    @price_list.each { |key| delete(key) }
   end
   
 end
