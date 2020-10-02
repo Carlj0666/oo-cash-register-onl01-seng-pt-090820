@@ -23,6 +23,7 @@ class CashRegister
     elsif 
       self.total -= self.discount * 10
       return "After the discount, the total comes to $#{self.total}."
+    end
   end
 end
   
