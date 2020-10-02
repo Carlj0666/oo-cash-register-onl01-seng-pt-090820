@@ -8,6 +8,7 @@ class CashRegister
     @total = 0
     @discount = discount
     @items = []
+    @price_list
   end
   
   
