@@ -20,5 +20,3 @@ class CashRegister
   
 end
 
-@total = price * quantity #using @total here
-self.total #but returning self.total
