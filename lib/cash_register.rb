@@ -16,10 +16,11 @@ class CashRegister
   
   
   def apply_discount
-    #binding.pry
+    binding.pry
     self.total -= self.discount * 10
     
     puts "After the discount, the total comes to $#{self.total}."
+    
   end
   
 end
