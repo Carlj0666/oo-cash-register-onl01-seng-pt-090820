@@ -15,7 +15,7 @@ class CashRegister
   #    last_transaction
   #binding.pry
     #@price_list << price
-    @last_transaction = price * quantity
+    self.last_transaction = price * quantity
     quantity.times do
     items << title
     end
