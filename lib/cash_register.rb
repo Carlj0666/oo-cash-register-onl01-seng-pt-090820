@@ -18,7 +18,6 @@ class CashRegister
     items << title
     end
     self.total += price * quantity
-    
   end
   
   
@@ -37,7 +36,3 @@ class CashRegister
   end
   
 end
-
-
-
-#"There is no discount to apply."
