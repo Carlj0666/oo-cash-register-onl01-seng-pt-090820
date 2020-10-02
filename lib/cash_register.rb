@@ -16,7 +16,7 @@ class CashRegister
   
   
   def apply_discount
-    #binding.pry
+
     if self.discount == 0
       return "There is no discount to apply."
     else
@@ -25,7 +25,7 @@ class CashRegister
     end
   end
   
-  
+      binding.pry
   
 end
 
