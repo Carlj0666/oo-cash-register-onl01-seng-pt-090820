@@ -26,7 +26,7 @@ class CashRegister
   end
   
   
-  def items(title, price, quantity = 1)
+  def items(title = "", price = 0, quantity = 1)
     binding.pry
     
   end
