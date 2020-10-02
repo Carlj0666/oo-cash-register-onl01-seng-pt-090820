@@ -19,6 +19,7 @@ class CashRegister
     #binding.pry
     
     self.total -= self.discount * 10
+    puts 
   end
   
 end
