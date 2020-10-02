@@ -12,9 +12,7 @@ class CashRegister
   
   
   def add_item(title, price, quantity = 1)
-  #    last_transaction
-  #binding.pry
-    #@price_list << price
+    #binding.pry
     self.last_transaction = price * quantity
     quantity.times do
     items << title
@@ -35,7 +33,7 @@ class CashRegister
   end
   
   def void_last_transaction
-    self.clear(@last_transaction)
+    delete self.last_transaction
   end
   
 end
