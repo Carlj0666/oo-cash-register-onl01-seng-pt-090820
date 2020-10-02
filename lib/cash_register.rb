@@ -21,9 +21,10 @@ class CashRegister
       return "There is no discount to apply."
     end
     elsif 
-    self.total -= self.discount * 10
-    return "After the discount, the total comes to $#{self.total}."
+      self.total -= self.discount * 10
+      return "After the discount, the total comes to $#{self.total}."
   end
+end
   
 
   
