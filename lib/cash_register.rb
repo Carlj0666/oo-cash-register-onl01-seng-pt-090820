@@ -19,7 +19,7 @@ class CashRegister
     binding.pry
     self.total -= self.discount * 10
     
-    puts "After the discount, the total comes to $#{self.total}."
+    puts "After the discount, the total comes to $ #{self.total}."
     
   end
   
