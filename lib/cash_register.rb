@@ -35,10 +35,10 @@ class CashRegister
     end
   end
   
-  def void_last_transaction
-    #binding.pry
-    @price_list.clear
-  end
+  # def void_last_transaction
+  #   #binding.pry
+  #   @price_list.clear
+  # end
   
 end
 
