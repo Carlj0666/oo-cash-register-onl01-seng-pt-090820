@@ -15,7 +15,6 @@ class CashRegister
     self.total = price * quantity
           #binding.pry
           #figure out how to access the cash register's instance total with what we have
-    self.total
   end
   
   
