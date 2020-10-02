@@ -13,7 +13,7 @@ class CashRegister
   
   def add_item(title, price, quantity = 1)
   #    last_transaction
-    price_list
+    price_list { "one" => "eins", "two" => "zwei", "three" => "drei" }
     quantity.times do
     items << title
     end
