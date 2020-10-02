@@ -35,6 +35,7 @@ class CashRegister
   end
   
   def void_last_transaction
+    binding.pry
     @price_list.delete(title.price)
   end
   
