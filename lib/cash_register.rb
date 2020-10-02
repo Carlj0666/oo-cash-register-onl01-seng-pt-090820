@@ -25,7 +25,10 @@ class CashRegister
     end
   end
   
+  def item
       binding.pry
+  end
+  
   
 end
 
