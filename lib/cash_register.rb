@@ -17,6 +17,8 @@ class CashRegister
   
   def apply_discount
     #binding.pry
+    if self.discount == false
+      bindgin.pry
     self.total -= self.discount * 10
     return "After the discount, the total comes to $#{self.total}."
   end
