@@ -2,7 +2,7 @@ require"pry"
 
 class CashRegister
   
-  attr_accessor :total, :discount, :quantity
+  attr_accessor :total, :discount, :quantity, :title, :price
   
   def initialize(discount = 0)
     @total = 0
@@ -26,7 +26,7 @@ class CashRegister
   end
   
   
-  def items(title = "", price = 0, quantity = 1)
+  def items(title, price, quantity = 1)
     binding.pry
     
   end
