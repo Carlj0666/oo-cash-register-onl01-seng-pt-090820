@@ -13,7 +13,7 @@ class CashRegister
   
   def add_item(title, price, quantity = 1)
     quantity.times do
-    items_list << title
+    items << title
     end
     self.total += price * quantity
     
