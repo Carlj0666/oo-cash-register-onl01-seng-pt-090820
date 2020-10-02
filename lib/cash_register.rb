@@ -12,7 +12,8 @@ class CashRegister
   
   
   def add_item(title, price, quantity = 1)
-    
+  #    last_transaction
+    price_list
     quantity.times do
     items << title
     end
@@ -31,7 +32,9 @@ class CashRegister
     end
   end
   
-  
+  def void_last_transaction
+    
+  end
   
 end
 
